@@ -3,26 +3,64 @@
 MY WEB PAGE
 </title>
 <head>
-<style>
+<link rel="stylesheet" href="stylesheet.css">
+<img src="10000coders-logo.png" class="centre" width="100" height="100">
 
-body{
-background-color : lightblue;
-}
-div{
-background-color:lightpink;
-width:300px;
-border:15px solid green;
-padding:50px;
-margin:20px;
-</style>
-
-<p>
-MY FIRST WEB APPLICATION
-</p>
+<div class="heading"><h1>Welcome to 10000 Coders Programming Challenge</h1></div>
 </head>
 <body>
-<div>
-HELLO WORLD, THIS IS MY FIRST WEB APPLICATION WHICH IS DONE AS PART OF 3 DAY ONLINE BOOT CAMP FOR LEARNING THE SKILLS REQUIRED BY A WEB DEVELOPER. WE ARE HOSTING THIS WEBSITE THROUGH GITHUB, WHICH IS A GREAT PLATFORM TO STORE ALL THE CODES AND WORK ON THAT. WE CAN COLLABORATELY WORK ON ANY PROJECT ON THIS GITHUB PLATFORM.
+
+<div class="text">
+HELLO ALL, THIS IS MY FIRST WEB APPLICATION WHICH IS DONE AS PART OF 3 DAY ONLINE BOOT CAMP FOR LEARNING THE SKILLS REQUIRED BY A WEB DEVELOPER. WE ARE HOSTING THIS WEBSITE THROUGH GITHUB, WHICH IS A GREAT PLATFORM TO STORE ALL THE CODES AND WORK ON THAT. WE CAN COLLABORATELY WORK ON ANY PROJECT ON THIS GITHUB PLATFORM.
 </div>
+<p><h2> Hello guys,</p>
+<p>
+Welcom to the HTML/CSS programming exercise by 10000 Coders. This will test your basics in HTML and CSS. You need to recreate the document you are reading now using HTML/CSS. <u>Make sure that the page looks exactly like this document</u>.
+</p>
+<p> <h3>General Instructions</h3>
+1. There will be a 15px margin between all elements in the form shown below.</p>
+<p>2. Use exteral CSS for styling
+</p><p>3. This exercise will cover the following constructs of HTML
+</p><p> <ul>
+      <li> HTML Form</li>
+        <li> Text inputs with placeholders</li>
+<li> Text area</li>
+<li> Password input</li>
+<li> Select drop-down box</li>
+<li> Radio buttons</li>
+<li> Checkboxes and</li>
+<li> Buttons</li>
+</ul>
+</p>
+<div class="head"><h4>So, let's get started, All the best!</h4></div>
+<form>
+<label for="fname">Full name:</label>
+<input type="text" id="fname" alt="Enter your full name" name="fname" value=" ">     <br><br>
+<label for="spin">Secret Pin</label>
+<input type="text"  id="spin" name="spin" alt="enter the secret pin" value=" "> <br> <br>
+<label for="gender">Gender</label>
+<input type="radio" id="html" name="radio" value="Male">
+<label for="html"> Male</label>        
+<input type="radio" id="css" name="radio" value="Female">
+<label for="css"> Female</label><br><br>
+<p>I am an expert in 
+</p><input type="checkbox" id="html1" name="check" value="HTML">
+<label for ="html1"> HTML</label>
+<input type="checkbox" id="css1" name="check" value="CSS">
+<label for ="css1"> CSS</label><br> <br>
+<label for="field">My field of study is: </label>
+<select id="field" name="field" >
+<option  value="none">Select your branch using this select drop-down</option>
+    <option value="cse">CSE</option>
+<option value="ece"> ECE</option>
+<option value="eee">EEE</option>
+<option value="civil">CIVIL</option>
+</select>
+<br><br>
+<p>Tell more about yourself
+</p>
+<textarea name="message" rows="10" cols="30" >This is text area. Enter your description. </textarea>
+<br><br><button type="submit" class="button" value="submit">SUBMIT FORM</button>
+</body>
 
 </html>

@@ -1,0 +1,47 @@
+
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+select{
+border:2px solid red;}
+
+textarea{
+border:2px solid grey;}
+input{
+border: 2px solid orange;}
+.head{
+margin-left:500px;
+margin-right:200px;}
+.button {
+  border: none;
+  color:blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h3{
+color:blue;}
+form{ diplay:block;
+margin-left:500px;
+margin-right:200px;}
+.heading{color:darkblue;
+display:block;
+margin-left:auto;
+margin-right:auto;}
+
+body{
+background-color : lightblue;
+}
+.text{
+background-color:lightpink;
+width:1000px;
+border:10px solid green;
+padding:10px;
+margin:5px;

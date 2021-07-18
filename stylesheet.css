@@ -14,7 +14,8 @@ input{
 border: 2px solid orange;}
 .head{
 margin-left:auto;
-margin-right:auto;}
+margin-right:auto;
+text-align:center;}
 .button {
   border: none;
   color:blue;
@@ -30,11 +31,13 @@ h3{
 color:blue;}
 form{ diplay:block;
 margin-left:auto;
-margin-right:auto;}
+margin-right:auto;
+text-align:center;}
 .heading{color:darkblue;
 display:block;
 margin-left:auto;
-margin-right:auto;}
+margin-right:auto;
+text-align:center;}
 
 body{
 background-color : lightblue;
@@ -44,4 +47,4 @@ background-color:lightpink;
 width:1000px;
 border:10px solid green;
 padding:10px;
-margin:5px;
+margin:5px;}

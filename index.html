@@ -2,8 +2,21 @@
 <title>
 MY WEB PAGE
 </title>
+<script src="script.js"> </script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("input[type='radio']").click(function(){
+            var radioValue = $("input[name='gender']:checked").val();
+            if(radioValue){
+                alert("Your are a - " + radioValue);
+            }
+        });
+    });
+</script>
 <head>
 <link rel="stylesheet" href="stylesheet.css">
+<link rel="script" href="script.js">
 <img src="10000coders-logo.png" class="centre" width="100" height="100">
 
 <div class="heading"><h1>Welcome to 10000 Coders Programming Challenge</h1></div>
@@ -39,9 +52,9 @@ Welcom to the HTML/CSS programming exercise by 10000 Coders. This will test your
 <label for="spin">Secret Pin</label>
 <input type="text"  id="spin" name="spin" alt="enter the secret pin" value=" "> <br> <br>
 <label for="gender">Gender</label>
-<input type="radio" id="html" name="radio" value="Male">
+<input type="radio" id="html" name="gender" value="Male">
 <label for="html"> Male</label>        
-<input type="radio" id="css" name="radio" value="Female">
+<input type="radio" id="css" name="gender" value="Female">
 <label for="css"> Female</label><br><br>
 <p>I am an expert in 
 </p><input type="checkbox" id="html1" name="check" value="HTML">
@@ -60,7 +73,9 @@ Welcom to the HTML/CSS programming exercise by 10000 Coders. This will test your
 <p>Tell more about yourself
 </p>
 <textarea name="message" rows="10" cols="30" >This is text area. Enter your description. </textarea>
-<br><br><button type="submit" class="button" value="submit">SUBMIT FORM</button>
+<br><br>
+<input type="button" class="button" onclick="validate();" value="submit"></button>
+
 </body>
 
 </html>
